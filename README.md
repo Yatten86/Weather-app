@@ -23,7 +23,7 @@ An interactive weather application that retrieves real-time weather data from **
 │── style.css    # Styling
 │── script.js    # JavaScript logic
 │── README.md    # Project documentation
-```
+
 🔑 How to Get an API Key
 Visit OpenWeather API.
 Click Sign Up to create a free account.
@@ -37,3 +37,4 @@ Open index.html in a browser.
 Allow location access for automatic weather detection OR enter a city manually.
 📜 License
 This project is licensed under MIT. See LICENSE for details.
+```

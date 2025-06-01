@@ -28,7 +28,7 @@ function getWeatherByLocation() {
 }
 
 function fetchWeatherByCoords(lat, lon) {
-  const apiKey = "dae8a4530957b35c8bb0c1a29eca8bd1";
+  const apiKey = "OUR_API_KEY";
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
   fetch(url)
@@ -45,7 +45,7 @@ function getWeather() {
     return;
   }
 
-  const apiKey = "dae8a4530957b35c8bb0c1a29eca8bd1";
+  const apiKey = "YOUR_API_KEY";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
   fetch(url)

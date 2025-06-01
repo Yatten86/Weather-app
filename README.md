@@ -23,18 +23,25 @@ An interactive weather application that retrieves real-time weather data from **
 │── style.css    # Styling
 │── script.js    # JavaScript logic
 │── README.md    # Project documentation
+```
 
-🔑 How to Get an API Key
+##🔑 How to Get an API Key
+
 Visit OpenWeather API.
 Click Sign Up to create a free account.
 Go to API Keys in your profile dashboard.
 Copy your API key and replace "YOUR_API_KEY" in script.js.
-🛠️ How to Use
+
+##🛠️ How to Use
+
 Clone the repository:
-sh
+
 git clone https://github.com/YOUR_USERNAME/weather-app.git
+
 Open index.html in a browser.
+
 Allow location access for automatic weather detection OR enter a city manually.
-📜 License
+
+##📜 License
+
 This project is licensed under MIT. See LICENSE for details.
-```
